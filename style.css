@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #1f2937;
+    color: white;
+    padding: 0 36px;
+}
+.headerGroup h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+.nav-bar .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header a,
+.headerGroup p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header a {
+    text-decoration: none;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-logo {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+    padding: 0 200px;
+    margin-top: 12px;
+    margin-bottom: 36px;
+}
+.navGroup {
+    display: flex;
+    gap: 16px;
+}
+.signup{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.headerGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    padding: 30px 196px;
+}
+.header-img img{
+    width: 400px;
+    height: auto;
+    margin-bottom: 36px;
+}
+section {
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.blocks h2 {
+    text-align: center;
+    margin-bottom: 36px;
+}
+.group-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 120px;
+}
+.group-images img {
+    width: 250px;
+    height: auto;
+}
+.blocks.one,
+.blocks.two,
+.blocks.three,
+.blocks.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+.one p,
+.two p,
+.three p,
+.four p {
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 0;
+    padding: 0 300px;
+}
+.quote p {
+    font-style: italic; 
+    font-size: 24px;   
+}
+.quote h2 {
+    text-align: end;
+    font-size: 16px;
+}
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 96px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 36px;
+    margin-bottom: 96px;
+    border-radius: 10px;
+}
+.title h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.text {
+    margin-bottom: 16px;
+}
+ .submit {
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 0 8px;
+}
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #1f2937;
+    line-height: 50px;
+}
+.footer-text {
+    color: white;
+    height: 48px;
+}
